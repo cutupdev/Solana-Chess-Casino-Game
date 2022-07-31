@@ -1,0 +1,171 @@
+body {
+  /* background-color: rgb(245 245 245); */
+  background-color: white;
+  font-family: Nexa, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.textHeader {
+  margin-top: 20px;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.title-presentation {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.dividerBlue {
+  width: 100px;
+  height: 4px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  background: #b59963;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.share-game {
+  position: absolute;
+  width: 500px;
+  bottom: 0;
+  left: 0;
+}
+.board-container {
+  width: 600px;
+  height: 600px;
+}
+
+.board {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 12.5%;
+  height: 12.5%;
+}
+
+.promote-square {
+  width: 50%;
+  height: 50%;
+}
+
+.square-black {
+  background: #b59963;
+}
+
+.square-white {
+  background: #f0d9b5;
+}
+
+.board-square {
+  width: 100%;
+  height: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.piece-container {
+  cursor: grab;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.piece {
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.vertical-text {
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.vertical-text button {
+  margin-top: 20px;
+  cursor: pointer;
+  background: rgb(63, 63, 63);
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.iconTitle {
+  width: 25px;
+  height: 25px;
+}
+
+.linkDiscord {
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #7289da;
+  text-decoration: none;
+}
+
+.linkDiscord:hover {
+  background-color: #6a7fc9;
+}
+
+.discordContainer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .my-chess-pieces {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+
+
+.aboutCreators {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.creatorName {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.horizontalLine {
+  color: #f5f3f3;
+  background-color: #f5f3f3;
+  height: 1px;
+}
+
+.titleIntermediate {
+  font-size: 24px;
+  font-style: italic;
+  margin-top: 40px;
+  color: #f5f3f3;
+}

@@ -1,0 +1,68 @@
+{
+  "name": "chess2earn-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "shx rm -rf .next",
+    "dev-mainnet": "next dev",
+    "dev-devnet": "env-cmd -f .env.devnet next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=14.15.0",
+    "npm": ">=7.20.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@headlessui/react": "^1.4.1",
+    "@mui/material": "^5.4.4",
+    "@project-serum/anchor": "^0.22.1",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/wallet-adapter-base": "^0.6.0",
+    "@solana/wallet-adapter-react": "^0.12.3",
+    "@solana/wallet-adapter-react-ui": "^0.5.0",
+    "@solana/wallet-adapter-wallets": "^0.10.0",
+    "@solana/web3.js": "^1.29.2",
+    "@tailwindcss/forms": "^0.3.4",
+    "bignumber.js": "^9.0.1",
+    "chess.js": "^0.12.1",
+    "env-cmd": "^10.1.0",
+    "firebase": "^8.7.0",
+    "next": "^12.2.2",
+    "play2earn": "^1.0.15",
+    "react": "17.0.2",
+    "react-dnd": "^11.1.3",
+    "react-dnd-html5-backend": "^11.1.3",
+    "react-dom": "17.0.2",
+    "react-firebase-hooks": "^3.0.4",
+    "react-hot-toast": "^2.1.1",
+    "react-icons": "^4.3.1",
+    "react-loader-spinner": "^6.0.0-0",
+    "react-router-dom": "^5.2.0",
+    "react-scroll": "^1.8.6",
+    "react-share": "^4.4.0",
+    "react-toastify": "^8.2.0",
+    "rxfire": "^4.0.0",
+    "rxjs": "^7.1.0",
+    "superstruct": "^0.15.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.25",
+    "autoprefixer": "10.4.5",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "next-transpile-modules": "^8.0.0",
+    "postcss": "^8.3.8",
+    "shx": "^0.3.3",
+    "tailwindcss": "^2.2.16",
+    "typescript": "4.4.3"
+  },
+  "overrides": {
+    "autoprefixer": "10.4.5"
+  },
+  "author": "Marin Bouthemy",
+  "license": "MIT"
+}
