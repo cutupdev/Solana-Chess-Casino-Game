@@ -62,5 +62,8 @@ amplifytools.xcconfig
 # Idea
 .idea
 .vscode
+
+
+# Environment variables
 .env
 .env.devnet
