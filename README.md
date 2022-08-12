@@ -1,39 +1,38 @@
 # Chess2Earn.com
 
-[Chess2Earn](https://www.chess2earn.com) is the first chess to earn on the Solana blockchain.
+[Chess2Earn](https://chess2earn.web-2-to-3.com) is the first chess to earn on the Solana blockchain.
 
 It integrates with the play2earn package, you do not need to know any Rust or Solana program.
 
-This is the frontend portion of the service. It works as well with a Firebase backend and a variant of the escrow program where people place their bet.
-
-## Architecture of the program
 
 
-You can find a description (image) of the program here:
+## Installation - Documentation
 
-
-
-## Setup
-
+```bash
+npm run install
 ```
-yarn install
-```
-npm run dev
-# or
 
-## Prerequisite
+First, follow the tutorial [here](https://docs.web-2-to-3.com) to create your account to enable Play2Earn.
 
-You also need to setup correctly all the credentials in .env.
+Then once it is done, need to setup correctly all the credentials in .env with your API key, your firebase configs and your domain name.
 
 
 - Then start the app
 
 ```bash
-yarn dev-devnet 
+npm run dev-devnet 
 # for devnet
 
-yarn dev-mainnet
+npm run dev-mainnet
 # for mainnet
+```
+
+## Production / Deployment
+
+You can use Vercel to deploy automatically your application.
+
+```
+npm run build
 ```
 
 # License
