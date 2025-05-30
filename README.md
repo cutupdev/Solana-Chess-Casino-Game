@@ -1,6 +1,6 @@
 # Solana Chess Casino Game
 
-This is chess game on the Solana blockchain. As a play-to-earn game, I have implemented smart contract for security. Solana program was built by Anchor framework and UI is built by react.js. I have implemented only UI and smart contract here, but for full working website, backend is also possible. Feel free to reach out of me when you need supports[Telegram: https://t.me/DevCutup, Whatspp: https://wa.me/13137423660].
+This is chess game on the Solana blockchain. As a play-to-earn game, I have implemented smart contract for security. Solana program was built by Anchor framework and UI is built by react.js. This is not full code, I have shared only UI and smart contract here. For full working website, feel free to reach out of me when you need supports[Telegram: https://t.me/DevCutup, Whatspp: https://wa.me/13137423660].
 
 
 

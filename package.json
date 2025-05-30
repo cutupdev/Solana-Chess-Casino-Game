@@ -1,60 +1,21 @@
 {
-  "name": "chess2earn-template",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "clean": "shx rm -rf .next",
-    "dev-mainnet": "next dev",
-    "dev-devnet": "env-cmd -f .env.devnet next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "engines": {
-    "node": ">=14.15.0",
-    "npm": ">=7.20.0"
-  },
-  "dependencies": {
-    "@emotion/react": "^11.8.1",
-    "@emotion/styled": "^11.8.1",
-    "@headlessui/react": "^1.4.1",
-    "@mui/material": "^5.4.4",
-    "@tailwindcss/forms": "^0.3.4",
-    "chess.js": "^0.12.1",
-    "env-cmd": "^10.1.0",
-    "firebase": "^8.7.0",
-    "next": "^12.2.2",
-    "play2earn": "^1.0.15",
-    "react": "17.0.2",
-    "react-dnd": "^11.1.3",
-    "react-dnd-html5-backend": "^11.1.3",
-    "react-dom": "17.0.2",
-    "react-firebase-hooks": "^3.0.4",
-    "react-hot-toast": "^2.1.1",
-    "react-icons": "^4.3.1",
-    "react-loader-spinner": "^6.0.0-0",
-    "react-router-dom": "^5.2.0",
-    "react-scroll": "^1.8.6",
-    "react-share": "^4.4.0",
-    "react-toastify": "^8.2.0",
-    "rxfire": "^4.0.0",
-    "rxjs": "^7.1.0",
-    "superstruct": "^0.15.2"
-  },
-  "devDependencies": {
-    "@types/react": "17.0.25",
-    "autoprefixer": "10.4.5",
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
-    "next-transpile-modules": "^8.0.0",
-    "postcss": "^8.3.8",
-    "shx": "^0.3.3",
-    "tailwindcss": "^2.2.16",
-    "typescript": "4.4.3"
-  },
-  "overrides": {
-    "autoprefixer": "10.4.5"
-  },
-  "author": "Marin Bouthemy",
-  "license": "MIT"
+    "scripts": {
+        "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
+        "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+    },
+    "dependencies": {
+        "@coral-xyz/anchor": "^0.29.0",
+        "@solana/spl-token": "^0.4.6",
+        "@solana/web3.js": "^1.91.8"
+    },
+    "devDependencies": {
+        "@types/bn.js": "^5.1.0",
+        "@types/chai": "^4.3.0",
+        "@types/mocha": "^9.0.0",
+        "chai": "^4.3.4",
+        "mocha": "^9.0.3",
+        "prettier": "^2.6.2",
+        "ts-mocha": "^10.0.0",
+        "typescript": "^4.3.5"
+    }
 }
